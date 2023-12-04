@@ -53,7 +53,7 @@ const Feedbacks = () => {
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </motion.div>
       </div>
-      <div className={`${styles.paddingX} -m-20 pb-14 flex flex-wrap gap-7`}>
+      <div className={`${styles.paddingX} -m-20 pb-14 flex flex-wrap gap-7 ml-auto sm:ml-0`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}

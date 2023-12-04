@@ -36,10 +36,12 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
-        I'm Danish Ali, i am skilled developer with experties in Javascript and
-        python.
+        I specialize in crafting seamless user experiences using React, JavaScript,
+        Tailwind, and Bootstrap on the front end. On the back end, my
+        expertise lies in Python, Django, Odoo, and Point of Sale solutions, bringing a
+        holistic approach to full-stack development.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

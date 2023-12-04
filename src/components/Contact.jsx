@@ -7,10 +7,6 @@ import { SectionWrapper } from "./hoc";
 import { slideIn } from "../utils/motion";
 import { motion } from "framer-motion";
 
-// template_dvpna59
-// service_pgixlod
-// EQZwyWN_eMsnMMGqo
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -84,29 +80,29 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Name</span>
+            {/* <span className="text-white font-medium mb-4">Name</span> */}
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Enter your name!"
+              placeholder="Your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Email</span>
+            {/* <span className="text-white font-medium mb-4">Email</span> */}
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="Enter Your Email Address!"
+              placeholder="Your Email Address"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Message</span>
+            {/* <span className="text-white font-medium mb-4">Message</span> */}
             <textarea
               rows={7}
               name="message"
