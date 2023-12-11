@@ -25,7 +25,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-"
+            className="w-full h-full object-cover rounded-xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img-hower">
             <div
@@ -68,13 +68,14 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-seconadry text-[17px] max-x-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          In my portfolio, my work stands as a testament to my passion for
+          crafting exceptional digital experiences. I have meticulously designed
+          and developed projects that seamlessly blend form and function,
+          delivering user-centric solutions. Each endeavor reflects my
+          commitment to innovation, precision, and a keen eye for detail.
+          Explore these projects to witness the intersection of creativity and
+          technology, where every line of code contributes to a compelling
+          narrative of digital excellence.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
