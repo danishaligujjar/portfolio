@@ -22,6 +22,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  leaders,
 } from "../assets";
 
 export const navLinks = [
@@ -132,7 +133,7 @@ const experiences = [
     company_name: "Elite International Education Group Inc.",
     icon: ehs,
     iconBg: "#E6DEDD",
-    date: "2021 - Jul 2022",
+    date: "Jan 2021 - Jul 2022",
     points: [
       "Web Development: Developing and optimizing interactive web applications using a combination of HTML, CSS, and JavaScript to deliver pixel-perfect user interfaces.",
       "UI/UX Collaboration: Collaborating with our design teams to translate wireframes and mockups into interactive, user-friendly web interfaces that meet design and branding standards.",
@@ -147,7 +148,7 @@ const experiences = [
     company_name: "Axiom World",
     icon: axiom,
     iconBg: "#E6DEDD",
-    date: "Apr 2023 - Present",
+    date: "Apr 2023 - Feb 2024",
     points: [
       "Custom Module Development: Crafting custom Odoo modules tailored to client requirements, ensuring seamless integration with existing systems.",
       "Database Management: Proficiently managing databases, optimizing data structures, and ensuring data integrity within the Odoo ecosystem.",
@@ -155,6 +156,20 @@ const experiences = [
       "API Integration: Integrating Odoo with external systems and APIs to facilitate data exchange and enhance functionality.",
       "Bug Resolution: Identifying and resolving backend issues promptly to maintain system stability.",
       "Code Review: Conducting thorough code reviews to maintain high-quality standards and adherence to best practices.",
+    ],
+  },
+  {
+    title: "PCB Inspection & Data Processing Technician (BBT)",
+    company_name: "Leaders Electronics Co., Ltd.",
+    icon: leaders,
+    iconBg: "#E6DEDD",
+    date: "Feb 2024 - Oct 2026",
+    points: [
+      "Industrial Inspection & Automated Testing: Supported PCB testing workflows by preparing and processing inspection data used to verify circuit patterns and electrical connections.",
+      "Technical Data Analysis: Examined PCB inspection results to identify open circuits, short circuits and potential manufacturing defects, supporting accurate defect identification and verification.",
+      "Pattern Inspection & Defect Investigation: Used inspection equipment and softwares, microscopes and magnification tools to examine PCB patterns and investigate abnormalities.",
+      "Quality Control & Data Accuracy: Applied systematic inspection procedures to maintain data consistency, accuracy and reliability throughout manufacturing quality-control workflows.",
+      "Industrial Systems Exposure: Gained practical experience with data-driven manufacturing processes, automated testing environments and the role of technical inspection systems in modern electronics production."
     ],
   },
 ];

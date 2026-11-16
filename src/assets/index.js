@@ -21,6 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import axiom from "./company/axiom.png";
+import leaders from "./company/leader.webp";
 import weblogics from "./company/weblogics.png";
 import ehs from "./company/ehs.png";
 
@@ -51,6 +52,7 @@ export {
   typescript,
   threejs,
   axiom,
+  leaders,
   weblogics,
   ehs,
   carrent,
